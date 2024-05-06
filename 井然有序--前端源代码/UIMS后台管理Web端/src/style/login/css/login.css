@@ -1,0 +1,121 @@
+.boxcg:hover{
+    cursor: pointer;
+    background-color: #46a6ff;
+  }
+  .boxcg{
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+    width: 29.75%;
+    height: 35px;
+    background-color: #1890ff;
+    transition: background-color 0.5s;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+  }
+  .boxcf{
+    position: relative;
+    margin: 0 auto;
+    width: 29.75%;
+    height: 28px;
+  }
+  .boxccc:hover {
+    cursor: pointer;
+  }
+  .boxccc {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 14.5px;
+    right: 15px;
+  }
+  input[type="password"]::-ms-reveal{
+   display:none
+  }
+  .boxccb {
+    all: unset;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 48px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: white;
+    top: 14.5px;
+    width: 87%;
+  }
+  
+  .boxcca {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 14.5px;
+    left: 15px;
+  }
+  
+  .boxce {
+    position: relative;
+    margin: 0 auto;
+    width: 29.75%;
+    height: 47px;
+    background-color: #283443;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 5px;
+  }
+  
+  .boxcd {
+    position: relative;
+    margin: 0 auto;
+    width: 29.75%;
+    height: 28px;
+  }
+  
+  .boxcc {
+    position: relative;
+    margin: 0 auto;
+    width: 29.75%;
+    height: 47px;
+    background-color: #283443;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 5px;
+  }
+  
+  .boxcb {
+    position: relative;
+    margin: 0 auto;
+    width: 29.75%;
+    height: 30px;
+  }
+  
+  .boxca {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 26px;
+    color: #eee;
+    font-weight: 700;
+  }
+  
+  .boxa {
+    position: relative;
+    background-color: #2d3a4b;
+    width: 100vw;
+    /* 盒子宽度等于视窗宽度 */
+    height: 100vh;
+    /* 盒子高度等于视窗高度 */
+  }
+  
+  .boxb {
+    position: relative;
+    width: 100%;
+    height: 20%;
+  }
+  
+  .boxc {
+    position: relative;
+    width: 100%;
+  }
