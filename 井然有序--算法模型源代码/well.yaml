@@ -1,0 +1,14 @@
+path: /root/yolov8-ultralytics-main/dataset # dataset root dir
+train: images/train # train images (relative to 'path') 128 images
+val: images/val # val images (relative to 'path') 128 images
+test:  # test images (optional)
+nc: 5
+names:
+  0: good
+  1: broke
+  2: lose
+  3: uncovered
+  4: circle
+
+
+

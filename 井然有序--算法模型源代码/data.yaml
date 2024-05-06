@@ -1,0 +1,5 @@
+train: /root/yolov8-ultralytics-main/data/NEU-DET/NEU-DET/train
+val: /root/yolov8-ultralytics-main/data/NEU-DET/NEU-DET/test
+nc: 6 #标签数量
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches'] #标签名称
+

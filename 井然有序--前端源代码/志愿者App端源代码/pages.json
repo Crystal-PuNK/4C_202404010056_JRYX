@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index"
+		},
+		{
+			"path": "pages/tabbar/mine/mine"
+		},
+		{
+			"path": "pages/tabbar/socity/socity"
+		},
+		{
+			"path": "pages/tabbar/history/history"
+		},
+		{
+			"path" : "pages/dingdan/dingdan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/dongtai/dongtai",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/sousuo/sousuo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/tabbar/index/renwuxiangqing/renwuxiangqing",
+			"style" : 
+			{
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/tabbar/index/renwuxiangqing/renwuxiangqing1",
+			"style" : 
+			{
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0bd1ca",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/tabbar/index/index",
+			"text": "首页",
+			"iconPath": "static/index5.png",
+			"selectedIconPath": "static/index8.png"
+		},{
+			"pagePath": "pages/tabbar/socity/socity",
+			"text": "社区",
+			"iconPath": "static/socity2.png",
+			"selectedIconPath": "static/socity3.png"
+		},
+		{
+			"pagePath": "pages/tabbar/history/history",
+			"text": "订单",
+			"iconPath": "static/dingdan1.png",
+			"selectedIconPath": "static/dingdan2.png"
+		},{
+			"pagePath": "pages/tabbar/mine/mine",
+			"text": "我的",
+			"iconPath": "static/mine1.png",
+			"selectedIconPath": "static/mine2.png"
+		}]
+	}
+}
